@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
 
+<head>
+	<meta charset="UTF-16LE">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/homebrew.png" type "image=" " -icon"="" />
+	<link rel="shortcut icon" href="images/homebrew.png" type "image=" " -icon"="" />
+	<title>帮助</title>
+</head>
+
+<body>
+	<script type="text/javascript" color="0,205,205" opacity="0.7" zindex="-2" count="99" src="canvas-nest.js"></script>
+	<a href="index.html">返回主页</a>
+	<div style="text-align:center">
+    <h1>帮助</h1>
+  </div>
+  <div style="text-align:center">
+    
+  </div>
+  <script>
+		var checkMobile = function () {
+			return /Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent)
+		}
+		var line = [
+			checkMobile() ? "<br /><br /><div style=\"position:relative; bottom:10px; left:10px; line-height:10px\">" : "<div style=\"position:fixed; bottom:10px; left:10px; line-height:10px\">",
+			"<h6>",
+			"Created by",
+			"<a href=\"https://github.com/Rintim\">",
+			"Rintim",
+			"</a>",
+			"<a href=\"https://github.com/FIve201\">",
+			"FIve201",
+			"</a>",
+			"<a href=\"https://github.com/qianxu2001\">",
+			"qianxu2001",
+			"</a>",
+			"<a href=\"https://github.com/James-Makoto/\">",
+			"James-Makoto",
+			"</a>",
+			"</h6>",
+			"<h6>",
+			"From",
+			"<a href=\"https://github.com/Theopse\">",
+			"Theopse Organization",
+			"</a>",
+			"</h6>",
+			"</div>"
+		].join("\n");
+		document.write(line);
+	</script>
+</body>
+
+</html>
